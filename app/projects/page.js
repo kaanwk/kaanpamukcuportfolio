@@ -15,10 +15,10 @@ export default function Projects() {
                     <div className={styles.hiImKaanContainer}>
                         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                             <p className="hiImKaan">&nbsp;</p>
-                            <div className="hiImKaan">list of all of my projects:</div>
+                            <div>list of all of my projects:</div>
                             <div className={styles.underline}>
                                 <a href="https://devpost.com/software/reach-rbc" target="_blank" rel="noopener noreferrer" className={styles.underline}>
-                                    <div className={styles.underline}>• Reach RBC</div>
+                                <div className="hiImKaan" >•<a className="underlined">Reach RBC</a></div>
                                 </a>
                             </div>
                             <div className="hiImKaan">
