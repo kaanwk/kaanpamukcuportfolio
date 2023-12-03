@@ -1,0 +1,43 @@
+
+
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hiImKaan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+
+.icons {
+    display: flex;
+    padding: 0;
+
+}
+
+.icons ul {
+    display: flex;
+    font-size: 2rem;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .icons ul li {
+    padding-right: 20px;
+  }

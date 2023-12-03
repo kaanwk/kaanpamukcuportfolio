@@ -1,0 +1,23 @@
+.flexContainer {
+    display: flex;
+}
+
+.selectionSidebar {
+    width: 25%;
+    height: 100vh;
+    position: fixed;
+    left: 15%;
+    top: 0;
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.selectionSidebar a {
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 10px; /* Adjust the margin-bottom value to control spacing */
+}
