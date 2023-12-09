@@ -49,7 +49,7 @@ export default function Internships() {
                         Java, Python, Cucumber, Selenium, Appium, Rest, JIRA, SQL,
                       </div>
                       <div className="hiImKaan">
-                        Javascript, React.js, Node.js, HTML, CSS
+                        Javascript, React.js, Node.js, HTML, CSS, AWS, Apache, Hadoop
                       </div>
                       <br></br>
                       <br></br>

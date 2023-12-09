@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react';
 import styles from "../components/projectscomponent.css";
 import yourGif3 from "../images/snoopygif3.gif";
+import Link from 'next/link';
 
 
 export default function Projects() {
@@ -66,16 +67,16 @@ export default function Projects() {
                             </div>
                             <br></br>
                             <div className="hiImKaan">
-                                • This website!
+                            <Link href ="/" className="hiImKaan" >•<a className="underlined"> This website!</a></Link>
                             </div>
                             <br></br>
                             <br></br>
                             <div className="hiImKaan">languages, tools and frameworks I have used in my projects:</div>
                             <div className="hiImKaan">
-                                Java, Python, Cucumber, Selenium, Appium, Rest, JIRA, SQL,
+                                Java, Python, Flask, Git, Pandas, NumPy, Bash, Assembly, C++, C, SQL,
                             </div>
                             <div className="hiImKaan">
-                                Javascript, React.js, Node.js, HTML, CSS
+                                Javascript, React.js, Node.js, HTML, CSS, Jira, OpenGL, Firebase
                             </div>
                             <br></br>
                             <br></br>
