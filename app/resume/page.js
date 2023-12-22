@@ -11,7 +11,7 @@ export default function Projects() {
                 <div className="mainContent">
                     <center>
                         <object data=
-                            "https://drive.google.com/file/d/1nbi7zEEZv1QJs9Q9SS6Zpmgb2EtsIm7a/preview"
+                            "https://drive.google.com/file/d/1UbVDKOBjTqBmZrwOOA12HflfWaB6WEbA/preview"
                             width={500} height={620}>
                         </object>
                     </center>

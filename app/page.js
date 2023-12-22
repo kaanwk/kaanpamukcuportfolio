@@ -22,10 +22,7 @@ export default function Home() {
               <p className="hiImKaan">&nbsp;</p>
               <div className="hiImKaan">Hi, i’m Kaan!</div>
               <div className="hiImKaan">&nbsp;</div>
-              <div className="hiImKaan">I am currently single -</div>
-              <div className="hiImKaan">
-                looking for 2024 summer internships for swe and qa!
-              </div>
+              <div className="hiImKaan">I am currently seeking summer 2024 internships! -</div>
               <div className="hiImKaan">
                 please send me an email at: alpikaan.pamukcu@gmail.com
               </div>

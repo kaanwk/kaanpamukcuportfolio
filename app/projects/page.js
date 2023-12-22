@@ -32,8 +32,10 @@ export default function Projects() {
                                 (My first ever Hackathon win!)
                             </div>
                             <br></br>
-                            <div className="hiImKaan">
-                                • Timmy at the Disco
+                            <div className={styles.underline}>
+                                <a href="https://github.com/kaanwk/TimmyDisco" target="_blank" rel="noopener noreferrer" className={styles.underline}>
+                                <div className="hiImKaan" >•<a className="underlined">Timmy at the Disco</a></div>
+                                </a>
                             </div>
                             <div className="hiImKaan">
                                 Placed Timmy in a bucket and
