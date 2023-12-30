@@ -27,19 +27,22 @@ export default function About() {
                             <div className="hiImKaan">• working on my upcoming 3 projects</div>
                             <br></br>
                             <div className="hiImKaan">
-                                I love to code in - Python, SQL, Java, JavaScript, R, C, C++, HTML/CSS,
+                                I love to code in - Python, SQL, Java, JavaScript, R, C, C++,
                             </div>
                             <div className="hiImKaan">
-                                Go Lang, Bash, Assembly
+                            HTML/CSS, Go Lang, Bash, Assembly
                             </div>
                             <div className="hiImKaan">
-                                I love the tools/fameworks - Node.js, Pandas, NumPy, Figma, React, Jira,
+                                I love the tools/fameworks - Node.js, Pandas, NumPy,
                             </div>
                             <div className="hiImKaan">
-                                Selenium, Cucumber, Git, OpenGL, Firebase, MongoDB, Flask, AWS, GRPC, SOAP,
+                                Figma, React, Jira,Selenium, Cucumber, Git, OpenGL,
                             </div>
                             <div className="hiImKaan">
-                                Apache Airflow, Maven, Workato, Mulesoft, Bitbucket, Docker, Hadoop
+                                Firebase, MongoDB, Flask, AWS, GRPC, SOAP, Hadoop
+                            </div>
+                            <div className="hiImKaan">
+                                Apache Airflow, Maven, Workato, Mulesoft, Bitbucket, Docker
                             </div>
                             <br></br>
                             <br></br>

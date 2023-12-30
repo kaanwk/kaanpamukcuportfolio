@@ -6,7 +6,7 @@
     width: 20%;
     height: 100vh;
     position: fixed;
-    left: 15%;
+    left: 11%;
     top: 0;
     padding: 10px;
     text-decoration: none;
@@ -21,3 +21,23 @@
     color: #333;
     margin-bottom: 10px; /* Adjust the margin-bottom value to control spacing */
 }
+
+@media (max-width: 768px) {
+    .selectionSidebar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        height: 100px;
+        justify-content: space-between;
+        font-size: smaller;
+        padding-left: 10%;
+        padding-right: 10%;
+
+    }
+    
+}
+
