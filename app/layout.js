@@ -3,6 +3,7 @@ import './globals.css';
 import React from 'react';
 import './components/navbar.js'
 import Navbar from './components/navbar.js';
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -15,8 +16,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Navbar />
+      <Analytics></Analytics>
       <body className={inter.className}>
-        {children}</body>
+        {children}</body> 
     </html>
   );
 }

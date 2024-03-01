@@ -33,6 +33,24 @@ export default function Projects() {
                             </div>
                             <br></br>
                             <div className={styles.underline}>
+                                <a href="https://devpost.com/software/reviewify" target="_blank" rel="noopener noreferrer" className={styles.underline}>
+                                <div className="hiImKaan" >•<a className="underlined">Reviewify</a></div>
+                                </a>
+                            </div>
+                            <div className="hiImKaan">
+                                Making Google Reviews more useful
+                            </div>
+                            <div className="hiImKaan">
+                                for any business with giving detailed
+                            </div>
+                            <div className="hiImKaan">
+                                information on positive & negative reviews
+                            </div>
+                            <div className="hiImKaan">
+                                using Cohere's NLP technology
+                            </div>
+                            <br></br>
+                            <div className={styles.underline}>
                                 <a href="https://github.com/kaanwk/TimmyDisco" target="_blank" rel="noopener noreferrer" className={styles.underline}>
                                 <div className="hiImKaan" >•<a className="underlined">Timmy at the Disco</a></div>
                                 </a>
@@ -62,10 +80,6 @@ export default function Projects() {
                             </div>
                             <div className="hiImKaan">
                                 of gas prices from 1980-2023
-                            </div>
-                            <br></br>
-                            <div className="hiImKaan">
-                                • DeltaHacks X (TBD)
                             </div>
                             <br></br>
                             <div className="hiImKaan">
