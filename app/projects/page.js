@@ -47,7 +47,7 @@ export default function Projects() {
                                 information on positive & negative reviews
                             </div>
                             <div className="hiImKaan">
-                                using Cohere's NLP technology
+                                using Cohere NLP technology
                             </div>
                             <br></br>
                             <div className={styles.underline}>
