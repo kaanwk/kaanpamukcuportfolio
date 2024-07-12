@@ -51,6 +51,15 @@ export default function Projects() {
                             </div>
                             <br></br>
                             <div className={styles.underline}>
+                                <a href="https://github.com/kaanwk/fitted" target="_blank" rel="noopener noreferrer" className={styles.underline}>
+                                <div className="hiImKaan" >•<a className="underlined">Fitted</a></div>
+                                </a>
+                            </div>
+                            <div className="hiImKaan">
+                                virtual closed app made with Swift
+                            </div>
+                            <br></br>
+                            <div className={styles.underline}>
                                 <a href="https://github.com/kaanwk/TimmyDisco" target="_blank" rel="noopener noreferrer" className={styles.underline}>
                                 <div className="hiImKaan" >•<a className="underlined">Timmy at the Disco</a></div>
                                 </a>

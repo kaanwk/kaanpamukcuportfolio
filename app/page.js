@@ -22,7 +22,7 @@ export default function Home() {
               <p className="hiImKaan">&nbsp;</p>
               <div className="hiImKaan">Hi, i’m Kaan!</div>
               <div className="hiImKaan">&nbsp;</div>
-              <div className="hiImKaan">I am currently seeking summer 2024 internships! -</div>
+              <div className="hiImKaan">I am currently seeking summer 2025 internships/newgrad! -</div>
               <div className="hiImKaan">
                 please send me an email at: alpikaan.pamukcu@gmail.com
               </div>
@@ -45,7 +45,7 @@ export default function Home() {
               </div>
 
               <div className="hiImKaan">
-                Please reach out to me at alpikaan.pamukcu@gmail.com
+                Please reach out to me at kaanpamukcu7@gmail.com
               </div>
               <div className="hiImKaan">
                 and see my resume in the resume tab to your left!

@@ -20,11 +20,11 @@ export default function About() {
                                 <Image src={ProfilePic} alt="" width={200} height={200} />
                             </div>  
                             <div className="hiImKaan">currently I am working on</div>
-                            <div className="hiImKaan">• getting an internship for 2024 summer</div>
+                            <div className="hiImKaan">• getting an internship/newgrad position for 2025</div>
                             <div className="hiImKaan">• getting my degree</div>
                             <div className="hiImKaan">• working on Machacks</div>
                             <div className="hiImKaan">• preparing events as international student ambassador lead</div>
-                            <div className="hiImKaan">• working on my upcoming 3 projects</div>
+                            <div className="hiImKaan">• working on fitted</div>
                             <br></br>
                             <div className="hiImKaan">
                                 I love to code in - Python, SQL, Java, JavaScript, R, C, C++,

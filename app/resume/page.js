@@ -13,7 +13,7 @@ export default function Projects() {
                 {/* <div className="mainContent">
                     <center> */}
                         <object data=
-                            "https://drive.google.com/file/d/18IW6lT-BVHz7wZ4O584_iXyPd8lA9y8W/preview"
+                            "https://drive.google.com/file/d/1mh5fGXhXXe__h9oJv131hMERx1DwUVxc/preview"
                             width={500} height={620}>
                         </object>
                     {/* </center>
