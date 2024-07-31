@@ -3,6 +3,7 @@ import React from 'react';
 import styles from "../components/pagecomponent.css";
 import yourGif2 from "../images/snoopygif2.gif";
 import ProfilePic from "../images/pfp.png";
+import HoverImage from '../components/hoverimage';
 
 
 export default function About() {
@@ -21,17 +22,16 @@ export default function About() {
                             </div>  
                             <div className="hiImKaan">currently I am working on</div>
                             <div className="hiImKaan">• getting an internship/newgrad position for 2025</div>
-                            <div className="hiImKaan">• getting my degree</div>
-                            <div className="hiImKaan">• working on Machacks</div>
-                            <div className="hiImKaan">• preparing events as international student ambassador lead</div>
+                            <div className="hiImKaan">• getting my degree (6 courses left!)</div>
                             <div className="hiImKaan">• working on fitted</div>
                             <br></br>
                             <div className="hiImKaan">
-                                I love to code in - Python, SQL, Java, JavaScript, R, C, C++,
+                                I love to code in - Python, Java, SQL, PostgreSQL,
                             </div>
                             <div className="hiImKaan">
-                            HTML/CSS, Go Lang, Bash, Assembly
+                            JavaScript, TypeScript, Swift, R, C, C++, Kotlin, Go Lang
                             </div>
+                            <br></br>
                             <div className="hiImKaan">
                                 I love the tools/fameworks - Node.js, Pandas, NumPy,
                             </div>
@@ -46,44 +46,27 @@ export default function About() {
                             </div>
                             <br></br>
                             <br></br>
-                            <div className="hiImKaan">I am someone who loves partaking in many activities,</div>
-                            <div className="hiImKaan">
-                                previously I have been in a band as a guitarist,
+                            <div className="hiImKaan"> 
+                                Being an international student, I love to travel, and
                             </div>
                             <div className="hiImKaan">
-                                played piano, the flute. In terms of sports,
+                                have friends all over the world! I love to play Basketball
                             </div>
                             <div className="hiImKaan">
-                                I love basketball and have participated in tournaments in
+                                and Tennis, however I watch all kinds of sports.
                             </div>
                             <div className="hiImKaan">
-                                Istanbul, all of Italy, and Barcelona.
+                                I also love fashion and collecting trading cards, like
                             </div>
                             <div className="hiImKaan">
-                                I have recently picked up trying to learn Tennis which is what I am
-                            </div>
-                            <div className="hiImKaan">
-                                currently the most in love with.
-                            </div>
-                            <div className="hiImKaan">
-                                I also love gaming and regularly play TFT and Valorant.
+                                Basketball, Soccer cards as well as Pokemon cards!
                             </div>
                             <br></br>
                             <br></br>
                             <div className="hiImKaan">
-                                One thing that has never left my life is fashion and collecting,
+                                
+                                 <HoverImage />
                             </div>
-                            <div className="hiImKaan">
-                                I collect all sorts of things, from Yugioh cards
-                            </div>
-                            <div className="hiImKaan">
-                                to Money from all around the world.
-                            </div>
-                                I have loved fashion ever since I was a child
-                            <div className="hiImKaan">
-                                and very much care about how I dress every day!
-                            </div>
-                            <br></br>
                             <br></br>
                             <div className="hiImKaan">
                                 Currently my dream place to travel is, Buenos Aires - Argentina

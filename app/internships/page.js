@@ -2,6 +2,8 @@ import Image from 'next/image'
 import React from 'react';
 import styles from "../components/internshipscomponent.css";
 import yourGif4 from "../images/snoopygif4.gif";
+import tdLogo from "../images/tdbank.png";
+import hitachiLogo from "../images/hitachilogo.png"
 
 
 export default function Internships() {
@@ -16,7 +18,9 @@ export default function Internships() {
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                       <p className="hiImKaan">&nbsp;</p>
                       <div className="hiImKaan">previous internships:</div>
-                      <div className="hiImKaan">• TD Bank</div>
+                      <div className="hiImKaan">• TD Bank
+                      <Image src={tdLogo} alt="TD Bank Logo" width={20} height={20} style={{ marginLeft: '5px' }} />
+                      </div>
                       <div className="hiImKaan">
                         Automated the financial account application process on
                       </div>
@@ -29,6 +33,7 @@ export default function Internships() {
                       <br></br>
                       <div className="hiImKaan">
                       • Hitachi
+                      <Image src={hitachiLogo} alt="Hitachi Logo" width={30} height={30} style={{ marginLeft: '5px' }} />
                       </div>
                       <div className="hiImKaan">
                         Implemented SQL Normalization to streamline weekly
