@@ -3,6 +3,11 @@ import React from 'react';
 import styles from "../components/projectscomponent.css";
 import yourGif3 from "../images/snoopygif3.gif";
 import Link from 'next/link';
+import rbcreach from "../images/RBC-Reach.jpeg";
+import reviewifyimage from "../images/reviewify.jpeg";
+import timmyimage from "../images/timmy.jpeg";
+import fittedimage from "../images/fitted.jpeg";
+import fittedimage2 from "../images/fittedpic.jpeg";
 
 
 export default function Projects() {
@@ -32,6 +37,8 @@ export default function Projects() {
                                 (My first ever Hackathon win!)
                             </div>
                             <br></br>
+                            <Image src={rbcreach} alt="RBC - Reach" width={500} height={500} style={{ marginLeft: '5px' }} />
+                            <br></br>
                             <div className={styles.underline}>
                                 <a href="https://devpost.com/software/reviewify" target="_blank" rel="noopener noreferrer" className={styles.underline}>
                                 <div className="hiImKaan" >•<a className="underlined">Reviewify</a></div>
@@ -50,6 +57,8 @@ export default function Projects() {
                                 using Cohere NLP technology
                             </div>
                             <br></br>
+                            <Image src={reviewifyimage} alt="Reviewify" width={500} height={500} style={{ marginLeft: '5px' }} />
+                            <br></br>
                             <div className={styles.underline}>
                                 <a href="https://github.com/kaanwk/fitted" target="_blank" rel="noopener noreferrer" className={styles.underline}>
                                 <div className="hiImKaan" >•<a className="underlined">Fitted</a></div>
@@ -59,17 +68,25 @@ export default function Projects() {
                                 virtual closed app made with Swift
                             </div>
                             <br></br>
+                            <div style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
+                                <Image src={fittedimage} alt="Fitted" width={300} height={250} />
+                                <Image src={fittedimage2} alt="Fitted" width={250} height={250} />
+                            </div>
+                            <br></br>
                             <div className={styles.underline}>
                                 <a href="https://github.com/kaanwk/TimmyDisco" target="_blank" rel="noopener noreferrer" className={styles.underline}>
                                 <div className="hiImKaan" >•<a className="underlined">Timmy at the Disco</a></div>
                                 </a>
                             </div>
+
                             <div className="hiImKaan">
                                 Placed Timmy in a bucket and
                             </div>
                             <div className="hiImKaan">
                               had him party at a disco 
                             </div>
+                            <br></br>
+                            <Image src={timmyimage} alt="Timmy" width={500} height={500} style={{ marginLeft: '5px' }} />
                             <br></br>
                             <div className="hiImKaan">
                                 • Room Organizer (WIP)
