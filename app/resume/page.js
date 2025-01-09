@@ -4,7 +4,7 @@ import "../components/resumecomponent.css";
 
 
 
-export default function Projects() {
+export default function Resume() {
     return (
 
         <div className="resume-div">

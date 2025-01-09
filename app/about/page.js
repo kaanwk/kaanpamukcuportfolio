@@ -21,8 +21,8 @@ export default function About() {
                                 <Image src={ProfilePic} alt="" width={200} height={200} />
                             </div>  
                             <div className="hiImKaan">currently I am working on</div>
-                            <div className="hiImKaan">• getting an internship/newgrad position for 2025</div>
-                            <div className="hiImKaan">• getting my degree (6 courses left!)</div>
+                            <div className="hiImKaan">• getting a newgrad position for 2025</div>
+                            <div className="hiImKaan">• getting my degree (3 courses left!)</div>
                             <div className="hiImKaan">• working on fitted</div>
                             <br></br>
                             <div className="hiImKaan">

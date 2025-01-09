@@ -1,0 +1,60 @@
+
+.mainContent {
+    display: block;
+    width: 100%;
+}
+
+.hate-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 6rem;
+    border: 1px solid;
+    margin: auto; /* centers the div in the viewport */
+}
+
+.hate-div object {
+    width: 100%; /* scales the object to fit its parent */
+    max-width: 500px; /* maintains original width */
+    max-height: 620px;  /* maintains original height */
+    object-fit: contain; /* ensures content is scaled correctly */
+}
+
+
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hiImKaan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* Media query for smaller screens (e.g., iPhone) */
+@media (max-width: 600px) {
+    .resume-div object {
+        width: 400px; /* Scale based on the viewport width */
+        height: 510px; /* Adjust height automatically to maintain aspect ratio */
+    }
+}

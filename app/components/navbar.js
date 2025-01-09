@@ -19,6 +19,9 @@ export default function Navbar() {
                     <Link href="/projects"> projects</Link>
                     <h1></h1>
                     <h1></h1>
+                    <Link href="/hate"> hate posts</Link>
+                    <h1></h1>
+                    <h1></h1>
                     <Link href="/resume"> resume</Link>
                 </div>
             </div>
