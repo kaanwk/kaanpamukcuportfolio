@@ -5,6 +5,7 @@ import yourGif3 from "../images/snoopygif3.gif";
 import Link from 'next/link';
 import rbcreach from "../images/RBC-Reach.jpeg";
 import reviewifyimage from "../images/reviewify.jpeg";
+import wattsupimage from "../images/wattsup.png";
 import timmyimage from "../images/timmy.jpeg";
 import fittedimage from "../images/fitted.jpeg";
 import fittedimage2 from "../images/fittedpic.jpeg";
@@ -22,6 +23,27 @@ export default function Projects() {
                         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                             <p className="hiImKaan">&nbsp;</p>
                             <div>list of all of my projects:</div>
+                            <br></br>
+                            <div className={styles.underline}>
+                                <a href="https://devpost.com/software/watts-up" target="_blank" rel="noopener noreferrer" className={styles.underline}>
+                                <div className="hiImKaan" >•<a className="underlined">Watts Up</a></div>
+                                </a>
+                            </div>
+                            <div className="hiImKaan">
+                            A community-driven EV platform that optimizes charging
+                            </div>
+                            <div className="hiImKaan">
+                            with smart scheduling, dynamic pricing, voice commands,
+                            </div>
+                            <div className="hiImKaan">
+                            and QR-based bookings for an efficient, and accessible experience.
+                            </div>
+                            <div className="hiImKaan">
+                                using OpenAI API, Django, Express/Node.js, MongoDB, Next, React
+                            </div>
+                            <br></br>
+                            <Image src={wattsupimage} alt="Watts Up" width={500} height={500} style={{ marginLeft: '5px' }} />
+                            <br></br>
                             <div className={styles.underline}>
                                 <a href="https://devpost.com/software/reach-rbc" target="_blank" rel="noopener noreferrer" className={styles.underline}>
                                 <div className="hiImKaan" >•<a className="underlined">Reach RBC</a></div>
@@ -89,26 +111,6 @@ export default function Projects() {
                             <Image src={timmyimage} alt="Timmy" width={500} height={500} style={{ marginLeft: '5px' }} />
                             <br></br>
                             <div className="hiImKaan">
-                                • Room Organizer (WIP)
-                            </div>
-                            <div className="hiImKaan">
-                                A website where you can organize
-                            </div>
-                            <div className="hiImKaan">
-                                your own room or dorm!
-                            </div>
-                            <br></br>
-                            <div className="hiImKaan">
-                                • Researching gas prices in Canada (WIP)
-                            </div>
-                            <div className="hiImKaan">
-                                a detailed analysis of fluctuation
-                            </div>
-                            <div className="hiImKaan">
-                                of gas prices from 1980-2023
-                            </div>
-                            <br></br>
-                            <div className="hiImKaan">
                             <Link href ="/" className="hiImKaan" >•<a className="underlined"> This website!</a></Link>
                             </div>
                             <br></br>
@@ -118,7 +120,10 @@ export default function Projects() {
                                 Java, Python, Flask, Git, Pandas, NumPy, Bash, Assembly, C++, C, SQL,
                             </div>
                             <div className="hiImKaan">
-                                Javascript, React.js, Node.js, HTML, CSS, Jira, OpenGL, Firebase
+                                MongoDB, OpenAI API, CohereAPI, Google Maps/Geolocation API, Express
+                            </div>
+                            <div className="hiImKaan">
+                                Javascript, React.js, Node.js, Next.js, HTML, CSS, Jira, OpenGL, Firebase
                             </div>
                             <br></br>
                             <br></br>
