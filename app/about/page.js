@@ -21,9 +21,9 @@ export default function About() {
                                 <Image src={ProfilePic} alt="" width={200} height={200} />
                             </div>  
                             <div className="hiImKaan">currently I am working on</div>
-                            <div className="hiImKaan">• getting a newgrad position for 2025</div>
-                            <div className="hiImKaan">• getting my degree (3 courses left!)</div>
-                            <div className="hiImKaan">• working on fitted</div>
+                            <div className="hiImKaan">• getting a newgrad position for 2025 (DONE!)</div>
+                            <div className="hiImKaan">• getting my degree (3 courses left!) (DONE!)</div>
+                            <div className="hiImKaan">• working on fitted & wavelength</div>
                             <br></br>
                             <div className="hiImKaan">
                                 I love to code in - Python, Java, SQL, PostgreSQL,

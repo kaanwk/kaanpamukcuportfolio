@@ -22,36 +22,31 @@ export default function Home() {
               <p className="hiImKaan">&nbsp;</p>
               <div className="hiImKaan">Hi, i’m Kaan!</div>
               <div className="hiImKaan">&nbsp;</div>
-              <div className="hiImKaan">I am currently seeking summer 2025 newgrad opportunities in Canada/USA -</div>
-              <div className="hiImKaan">
-                please send me an email at: alpikaan.pamukcu@gmail.com
-              </div>
+              <div className="hiImKaan">I am currently at Shopify as an Engineering Intern!</div>
               <br></br>
               <br></br>
-              <div className="hiImKaan">I am a student from McMaster University, based in Toronto,</div>
+              <div className="hiImKaan">I have graduated from McMaster University, based in Toronto,</div>
               <div className="hiImKaan">
-                currently obtaining my combined degree in
+                I have a degree in:
               </div>
               <div className="hiImKaan">
-                Computer Science and Economics
+                Combined Honours of Computer Science and Economics
               </div>
               <br></br>
               <br></br>
               <div className="hiImKaan">
-                I have previously interned at TD Bank, Hitachi and Beko
+                I have previously interned at Shopify, TD Bank, Hitachi and Beko
               </div>
-              <div className="hiImKaan">
-                and would love to work for you.
-              </div>
+
 
               <div className="hiImKaan">
                 Please reach out to me at alpikaan.pamukcu@gmail.com
               </div>
               <div className="hiImKaan">
-                and see my resume in the resume tab to your left
-                <br></br>
-                <br></br>
+                for any questions.
               </div>
+              <br></br>
+              <br></br>
             </div>
           </div>
           <div className="icons" >
